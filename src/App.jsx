@@ -125,7 +125,7 @@ function App() {
 
       <div
         style={{
-          maxHeight: " 400px",
+          maxHeight: "400px",
           minHeight: "300px",
           overflowY: "auto",
           textAlign: "center",
