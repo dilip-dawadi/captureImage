@@ -1,0 +1,80 @@
+/* Add some basic styling to the body */
+body {
+  font-family: "Arial", sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+/* Style the main container */
+div {
+  max-width: 550px;
+  min-width: 500px;
+
+  overflow: hidden;
+  margin: 20px auto;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Style the header */
+h2 {
+  color: #333;
+}
+
+/* Style the paragraph text */
+p {
+  color: #555;
+}
+
+/* Style the list items */
+ol {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 10px;
+}
+
+/* Style the buttons */
+button {
+  color: #fff;
+  font-size: 12px;
+  font-weight: bold;
+  letter-spacing: 0.8px;
+  padding: 12px 20px;
+  margin-bottom: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: transform 0.2s ease-in-out;
+}
+
+/* Style the buttons on hover */
+button:hover {
+  transform: scale(1.05);
+}
+
+/* Add some spacing to the buttons */
+button + button {
+  margin-left: 10px;
+}
+
+.cross {
+  position: absolute;
+  top: 8px;
+  right: 10px;
+  background: white;
+  border-radius: 50%;
+  padding: 2px 3px 0px 4px;
+  font-size: 16px;
+  cursor: pointer;
+  color: rgb(252, 64, 64);
+}
